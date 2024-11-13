@@ -1,0 +1,54 @@
+.navbar {
+    background-color: rgb(48, 8, 71);
+    color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.navbar a {
+    padding: 1px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a:hover {
+    color: rgb(129, 82, 184);
+}
+
+body {
+    background-color: rgb(34, 10, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 800px;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 40%;
+}
+
+.main_div input {
+    border: none;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(57, 28, 73);
+    color: antiquewhite;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    background-color: rgb(45, 8, 65);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(49, 34, 56);
+}
