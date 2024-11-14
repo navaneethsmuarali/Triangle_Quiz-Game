@@ -8,19 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<nav class="navbar">
+    <a href="./Istriangle.html">is triangle</a>
+    <a href="./Quiz.html">Quiz</a>
+    <a href="./Hypotenuse.html">Hypotenuse</a>
+    <a href="./Area.html">Area</a>
+</nav>
+
+
 <body>
-    <nav class="navbar">
-        <a href="./Istriangle.html">is triangle</a>
-        <a href="./Quiz.html">Quiz</a>
-        <a href="./Hypotenuse.html">Hypotenuse</a>
-        <a href="./Area.html">Area</a>
 
-    </nav>
+
     <div class="main_div">
-        <h1>quiz</h1>
-
+        <form id="quiz_form">
+            <div class="question_1">
+                <p>Q1.What will be the third angle of a triangle where angle 1 = 45° and angle 2 = 45°?</p>
+                <input type="radio" name="question1" value="90"> 90
+                <input type="radio" name="question1" value="45"> 45
+                <input type="radio" name="question1" value="60"> 60
+            </div>
+            <div class="question_2">
+                <p>Q2.If a triangle has an angle of 90°, what is it called?</p>
+                <input type="radio" name="question2" value="acute"> acute
+                <input type="radio" name="question2" value="obtuse"> obtuse
+                <input type="radio" name="question2" value="right angled"> right angled
+            </div>
+        </form>
+        <button type="button" id="submit_ans">Submit Answer</button>
+        <h2 id="output"></h2>
     </div>
-    <script src="./Script.js"></script>
+    <script src="./Scriptq.js"></script>
 </body>
 
 </html>
